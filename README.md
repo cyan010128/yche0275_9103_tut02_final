@@ -11,6 +11,10 @@ This is an interactive animation project created using p5.js. The project featur
 3. **Sun Interaction**: On the left side of the screen, you will see an animated sun whose rays change shape continuously using a noise function.
 
 ## Detailed Description of the Project
+Time-Based Animation
+Description: I am responsible for implementing time-based animation effects. By tracking the passage of time, my section ensures that animation elements change continuously as time progresses. For example, a timer is set up to modify colors, opacity, or position at intervals, simulating natural phenomena like day-night cycles or tides.
+Implementation Technique: Using millis() or frameCount as a time-tracking method to control animation triggers. Timers are set to allow smooth, gradual changes in the animation.
+Code Example: Changing background color every few seconds to simulate a day-night cycle.
 
 ### Personal Contribution to the Group Code
 
@@ -42,6 +46,14 @@ My inspiration came from natural scenes such as **birds soaring freely in the sk
 
 - **Cloud Masking**: The bird shape is created using the `mask()` method in p5.js to apply the cloud image to the drawn bird shape, resulting in a unique masked effect. This technique allows for custom-shaped image displays.
 - **Perlin Noise**: The grass sway and the sun’s rays use `Perlin` noise, making these animations look more natural and organic.
+
+### Update Log
+
+Initial Version: Basic wave animation to simulate the ocean flow.
+Update 1: Added audio-driven animations, making elements respond to frequency and rhythm in music.
+Update 2: Introduced Perlin noise effects, simulating natural wave flows and floating objects.
+Update 3: Implemented time-based animations, gradually changing elements over time, such as background color transitions.
+Update 4: Added user interaction, allowing users to influence the animation through mouse clicks and keyboard inputs.
 
 ## Changes to Group Code
 
